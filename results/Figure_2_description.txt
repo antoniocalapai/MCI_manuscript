@@ -1,0 +1,51 @@
+
+====================================================================
+FIGURE 2A — Trials per Session across Animals
+====================================================================
+File: Figure_2A.csv
+
+Each row corresponds to one animal.
+
+Columns:
+- animal: Animal identifier.
+- trials/session: Median number of trials per session for that animal.
+- total trials: Total number of trials performed across all sessions.
+- r: Partial correlation coefficient between trials and session number (controlling for duration).
+- p-value: Uncorrected p-value for the partial correlation.
+- adj_p: Adjusted p-value after multiple comparison correction (Benjamini–Hochberg).
+- adj_sig: Boolean indicating whether the adjusted p-value is significant (True/False).
+
+====================================================================
+FIGURE 2B — Trial Times Normalized to Session End
+====================================================================
+File: Figure_2B.csv
+
+Each row corresponds to one animal.
+
+Columns:
+- animal: Animal identifier.
+- num_sessions: Number of valid sessions for that animal.
+- total_trials: Total number of trials across all its sessions.
+
+These values summarize the data shown in the event plot, where individual trial
+times are normalized to the session duration (0–1).
+
+====================================================================
+FIGURE 2C — Distribution of Median Trial Times
+====================================================================
+File: Figure_2C.csv
+
+Each row summarizes descriptive and inferential statistics for the overall dataset.
+
+Columns:
+- median_trials_all: Global median of session medians for all animals combined.
+- min_median: Minimum of individual animals' median trial times.
+- max_median: Maximum of individual animals' median trial times.
+- iqr_25 / iqr_50 / iqr_75: First, second (median), and third quartiles of the trials-per-session distribution.
+- ttest_stat: Statistic of a one-sample t-test comparing median trial times to 0.5 (centered distribution test).
+- ttest_p: Associated p-value of the t-test.
+- partial_r: Partial correlation coefficient between trials and sessions (controlling for duration).
+- partial_p: Corresponding p-value for that partial correlation.
+
+--------------------------------------------------------------------
+Note: All numeric values are rounded to three or five decimal places as appropriate.

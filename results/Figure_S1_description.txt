@@ -1,0 +1,24 @@
+
+====================================================================
+FIGURE S1 — Session-wise correlations of model estimates
+====================================================================
+File: Figure_S1.csv
+
+Each row represents one animal and one task condition, and reports the
+correlation between session number and the modeled estimate of choice
+proportion.
+
+Columns:
+- animal: Animal identifier.
+- selection: Task condition ('static', 'dynamic', or 'pictures').
+- r: Partial correlation coefficient between session index and the
+     model estimate of choice proportion for that condition.
+- CI95%: 95 % confidence interval for the correlation coefficient.
+- p-val: Unadjusted p-value of the correlation.
+- adj_p: P-value after Benjamini–Hochberg correction for multiple
+         comparisons.
+- adj_sig: Boolean flag indicating whether the adjusted p-value is
+           below the chosen significance threshold.
+
+--------------------------------------------------------------------
+Numeric values are rounded to two or four decimal places as appropriate.

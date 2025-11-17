@@ -1,0 +1,61 @@
+
+====================================================================
+FIGURE 4A — Static task performance by stimulus size
+--------------------------------------------------------------------
+File: Figure_4A.csv
+
+Each row summarises the median hit rate and chance level across all animals
+for a given stimulus size in the static task.
+
+Columns:
+- size: Stimulus diameter (visual angle units).
+- HR: Median hit rate across all animals for that stimulus size.
+- chance: Theoretical chance-level performance as a function of stimulus size/background.
+
+--------------------------------------------------------------------
+FIGURE 4B — Dynamic task: speed-performance modulation per animal
+--------------------------------------------------------------------
+File: Figure_4B.csv
+
+Each row corresponds to one animal’s partial correlation between stimulus speed and
+adjusted hit rate (wHR) in the dynamic task.
+
+Columns:
+- group: Experimental group identifier.
+- animal: Animal identifier.
+- r: Partial correlation coefficient between speed and wHR.
+- CI95%: 95% confidence interval of the correlation coefficient.
+- n: Number of speed–wHR samples used.
+- trials: Total dynamic‐task trials for that animal.
+- p-val: Unadjusted p‐value of the correlation.
+- adj_p: P-value adjusted for multiple comparisons (Benjamini–Hochberg).
+- adj_sig: Boolean indicating whether adj_p is below threshold.
+
+--------------------------------------------------------------------
+FIGURE 4C — Mean adjusted hit rate for size × speed combinations
+--------------------------------------------------------------------
+File: Figure_4C.csv
+
+Each row reports the mean adjusted hit rate (wHR) for a specific stimulus size and speed,
+averaged across all animals.
+
+Columns:
+- size: Stimulus diameter (visual angle units).
+- speed: Target‐movement speed (visual angle units per second).
+- wHR: Mean adjusted hit rate across animals for that size–speed pair.
+
+--------------------------------------------------------------------
+FIGURE 4D — Frequency of optimal size–speed “sweet-spots”
+--------------------------------------------------------------------
+File: Figure_4D.csv
+
+Each row indicates how many animals showed a particular size–speed combination
+as their highest adjusted hit-rate condition.
+
+Columns:
+- speed: Target‐movement speed (visual angle units per second).
+- size: Stimulus diameter (visual angle units).
+- Count: Number of animals for whom that size–speed combination was optimal.
+
+--------------------------------------------------------------------
+Numeric values are rounded to three or four decimal places as appropriate.

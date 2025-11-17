@@ -1,0 +1,24 @@
+
+====================================================================
+FIGURE 3A — Bayesian model estimates of choice proportions
+====================================================================
+File: Figure_3.csv
+
+Each row corresponds to a single animal and one task condition
+('static', 'dynamic', or 'pictures') derived from the Bayesian hierarchical model.
+
+Columns:
+- animal: Animal identifier.
+- selection: Task condition, indicating which rule set or visual context the model refers to.
+- estimate: Posterior mean of the estimated choice-proportion parameter for that condition.
+- sd: Posterior standard deviation of the estimate, representing posterior uncertainty.
+- lower_CI / upper_CI: Lower and upper bounds of the 95% credible interval of the posterior distribution.
+
+Interpretation:
+These parameters summarize the posterior distributions from the Bayesian model
+used to estimate the probability of choosing each option type under the three task
+conditions across all animals. The credible intervals quantify Bayesian uncertainty
+around the posterior means.
+
+--------------------------------------------------------------------
+All numeric values are rounded to two or four decimal places as appropriate.

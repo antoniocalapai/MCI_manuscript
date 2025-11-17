@@ -1,0 +1,49 @@
+animal;selection;r;CI95%;p-val;adj_p;adj_sig
+al;dynamic;-0.58;[-0.95  0.44];0.2322;1.0;False
+al;pictures;-0.23;[-0.88  0.72];0.6631;1.0;False
+al;static;0.41;[-0.61  0.92];0.4249;1.0;False
+ba;dynamic;-0.06;[-0.89  0.87];0.9244;1.0;False
+ba;pictures;0.98;[0.67 1.  ];0.0045;0.2178;False
+ba;static;-0.1;[-0.9   0.86];0.8679;1.0;False
+ca;dynamic;-0.45;[-0.92  0.57];0.3667;1.0;False
+ca;pictures;-0.32;[-0.9   0.66];0.5369;1.0;False
+ca;static;0.53;[-0.49  0.94];0.2777;1.0;False
+cl;dynamic;-0.82;[-0.98 -0.02];0.0459;1.0;False
+cl;pictures;-0.61;[-0.95  0.4 ];0.2009;1.0;False
+cl;static;0.68;[-0.29  0.96];0.1348;1.0;False
+cu;dynamic;-0.55;[-0.96  0.64];0.3359;1.0;False
+cu;pictures;0.29;[-0.8   0.93];0.6394;1.0;False
+cu;static;0.79;[-0.31  0.99];0.1144;1.0;False
+de;dynamic;-0.84;[-0.98 -0.11];0.0343;1.0;False
+de;pictures;-0.91;[-0.99 -0.37];0.0121;0.5831;False
+de;static;0.98;[0.83 1.  ];0.0005;0.0253;True
+ea;dynamic;-0.87;[-0.99 -0.2 ];0.0245;1.0;False
+ea;pictures;0.17;[-0.74  0.86];0.7485;1.0;False
+ea;static;-0.29;[-0.89  0.68];0.5791;1.0;False
+el;dynamic;-0.93;[-0.99 -0.5 ];0.0066;0.3144;False
+el;pictures;-0.86;[-0.98 -0.14];0.0299;1.0;False
+el;static;0.92;[0.41 0.99];0.01;0.479;False
+he;dynamic;0.18;[-0.74  0.87];0.7287;1.0;False
+he;pictures;-0.62;[-0.95  0.39];0.1899;1.0;False
+he;static;0.76;[-0.14  0.97];0.0801;1.0;False
+lo;dynamic;-0.56;[-0.94  0.47];0.2526;1.0;False
+lo;pictures;0.08;[-0.78  0.84];0.8808;1.0;False
+lo;static;0.67;[-0.31  0.96];0.1436;1.0;False
+na;dynamic;-0.46;[-0.93  0.56];0.3539;1.0;False
+na;pictures;0.23;[-0.71  0.88];0.657;1.0;False
+na;static;-0.33;[-0.9   0.66];0.5268;1.0;False
+ni;dynamic;-0.56;[-0.97  0.64];0.3291;1.0;False
+ni;pictures;-0.79;[-0.99  0.29];0.1086;1.0;False
+ni;static;-0.5;[-0.96  0.68];0.3919;1.0;False
+pa;dynamic;0.08;[-0.78  0.84];0.882;1.0;False
+pa;pictures;0.65;[-0.35  0.96];0.1652;1.0;False
+pa;static;-0.53;[-0.94  0.49];0.2792;1.0;False
+pi;dynamic;-0.08;[-0.9   0.86];0.8961;1.0;False
+pi;pictures;-0.53;[-0.96  0.66];0.3579;1.0;False
+pi;static;0.2;[-0.83  0.92];0.7507;1.0;False
+sa;dynamic;-0.56;[-0.94  0.47];0.2516;1.0;False
+sa;pictures;-0.1;[-0.84  0.78];0.8551;1.0;False
+sa;static;0.85;[0.11 0.98];0.0336;1.0;False
+vi;dynamic;-0.83;[-0.98 -0.06];0.0401;1.0;False
+vi;pictures;-0.83;[-0.98 -0.05];0.0423;1.0;False
+vi;static;0.77;[-0.11  0.97];0.0732;1.0;False
